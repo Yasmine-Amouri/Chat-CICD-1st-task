@@ -16,7 +16,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "docker:build": "bash scripts/build.sh",
+    "docker:deploy": "bash scripts/deploy.sh"
   },
   "eslintConfig": {
     "extends": [
@@ -43,12 +45,12 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/HarounMehdaoui/Chat-CICD.git"
+    "url": "git+https://github.com/Yasmine-Amouri/Chat-CICD-1st-task.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/HarounMehdaoui/Chat-CICD/issues"
+    "url": "https://github.com/Yasmine-Amouri/Chat-CICD-1st-task/issues"
   }
 }
